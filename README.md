@@ -10,7 +10,7 @@
 
 5. Путь до установленной Ruby добавляется в глобальные файлы конфигурации системы (`/etc/bash.bashrc` и `/etc/profile`) для всех пользователей.
 
-6. **Сообщение об успехе**: Если всё прошло без ошибок, выводится сообщение о завершении установки.
+6. Если всё прошло без ошибок, выводится сообщение о завершении установки.
 
 ### Как использовать:
 
@@ -37,7 +37,7 @@
 
 5. The path to the installed Ruby is added to the global system configuration files (`/etc/bash.bashrc` and `/etc/profile') for all users.
 
-6. **Success Message**: If everything went smoothly, an installation completion message is displayed.
+6. If everything went smoothly, an installation completion message is displayed.
 
 ### How to use:
 
