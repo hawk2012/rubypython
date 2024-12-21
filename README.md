@@ -31,7 +31,7 @@
    
 2. The variables specify the Ruby version and the installation path.
 
-3. The Ruby source archive is downloaded by the `wget' command. The archive is then unpacked to `/tmp`.
+3. The Ruby source archive is downloaded by the `wget` command. The archive is then unpacked to `/tmp`.
 
 4. Ruby is configured, compiled, and installed using the `./configure`, `make`, and `make install` commands.
 
