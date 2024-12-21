@@ -22,3 +22,30 @@
    ```
 
 После выполнения этого скрипта у вас будет установлена последняя версия Ruby, а также настроены необходимые пути для её использования всеми пользователями системы.
+
+------------------------------------------------------------------------
+
+### Description of the script:
+
+1. The script first checks whether it is running with superuser rights (`root`), since Ruby requires administrator rights to install.
+   
+2. The variables specify the Ruby version and the installation path.
+
+3. The Ruby source archive is downloaded by the `wget' command. The archive is then unpacked to `/tmp`.
+
+4. Ruby is configured, compiled, and installed using the `./configure`, `make`, and `make install` commands.
+
+5. The path to the installed Ruby is added to the global system configuration files (`/etc/bash.bashrc` and `/etc/profile') for all users.
+
+6. **Success Message**: If everything went smoothly, an installation completion message is displayed.
+
+### How to use:
+
+1. Save this script to a file, for example, `install_ruby.py `.
+2. Run it with superuser rights:
+
+   ```bash
+   sudo python3 install_ruby.py
+   ```
+
+After executing this script, you will have the latest version of Ruby installed, as well as the necessary paths configured for its use by all users of the system.
