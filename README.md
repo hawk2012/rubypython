@@ -26,7 +26,7 @@
 
 ------------------------------------------------------------------------
 
-# Ruby senf-automation installation script
+# Ruby self-automation installation script
 
 ### Description of the script:
 
